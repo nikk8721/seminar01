@@ -5,27 +5,15 @@ int numberB = Convert.ToInt32(Console.ReadLine());
 Console.WriteLine("Введите число С");
 int numberC = Convert.ToInt32(Console.ReadLine());
 int maxCh = numberA;
-if (numberA > numberB)
+if (numberA > maxCh)
 {
     maxCh = numberA;
 }
-else
+if (numberB > maxCh)
 {
     maxCh = numberB;
 }
-if (numberA > numberC)
-{
-    maxCh = numberA;
-}
-else
-{
-    maxCh = numberC;
-}
-if (numberA > numberC)
-{
-    maxCh = numberA;
-}
-else
+if (numberC > maxCh)
 {
     maxCh = numberC;
 }
