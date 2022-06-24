@@ -1,5 +1,5 @@
 ﻿Console.WriteLine("Введите число ");
-double numberA = Convert.ToDouble(Console.ReadLine());
+int numberA = Convert.ToInt32(Console.ReadLine());
 if (numberA % 2 == 0)
 {
     Console.WriteLine("Число четное");
